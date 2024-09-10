@@ -1,0 +1,631 @@
+{
+  "name": "个人销户",
+  "children": [
+    {
+      "id": "1716888214814_1",
+      "type": "widget",
+      "component": "button",
+      "data": {
+        "label": "按钮",
+        "type": "text",
+        "accompany": "",
+        "custom": "",
+        "size": "normal",
+        "padding": 0,
+        "margin": 0
+      },
+      "rules": {
+        "初始化": [
+          {
+            "name": "<p>111111</p>",
+            "id": "8214781",
+            "change": ""
+          },
+          {
+            "name": "<p>555<strong>55发范德萨的事</strong></p>",
+            "id": "2676346",
+            "change": "<p>55555</p>"
+          }
+        ],
+        "点击后": [
+          {
+            "name": "<p>2222222</p>",
+            "id": "8195043",
+            "change": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "1716888215691_1",
+      "type": "widget",
+      "component": "button",
+      "data": {
+        "label": "按钮",
+        "type": "text",
+        "accompany": "",
+        "custom": "",
+        "size": "normal",
+        "padding": 0,
+        "margin": 0
+      },
+      "rules": {
+        "初始化": [
+          {
+            "name": "<p>33333</p>",
+            "id": "7200324",
+            "change": ""
+          }
+        ],
+        "点击后": [
+          {
+            "name": "<p>444444</p>",
+            "id": "5214175",
+            "change": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "1716888229035_1",
+      "type": "widget",
+      "component": "button",
+      "data": {
+        "label": "按钮",
+        "type": "warning",
+        "accompany": "",
+        "custom": "",
+        "size": "normal",
+        "padding": 0,
+        "margin": 0
+      },
+      "rules": {
+        "初始化": [
+          {
+            "name": "<p>官方代购</p>",
+            "id": "2034828",
+            "change": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "1724814408369_1",
+      "type": "widget",
+      "component": "select",
+      "data": {
+        "label": "下拉框",
+        "modelData": "",
+        "inputLimit": "",
+        "selectMode": "single",
+        "showLabel": true,
+        "labelAlign": "right",
+        "placeholder": "",
+        "options": [],
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "50%"
+      },
+      "rules": {}
+    },
+    {
+      "id": "1724814576394_1",
+      "type": "container",
+      "component": "table-group",
+      "data": {
+        "label": "表格组",
+        "width": "100%",
+        "accompany": "",
+        "custom": ""
+      },
+      "rules": {},
+      "children": [
+        {
+          "id": "1724814576394_2",
+          "type": "container",
+          "component": "row",
+          "data": {
+            "label": "行",
+            "width": "100%",
+            "custom": ""
+          },
+          "rules": {},
+          "children": [
+            {
+              "id": "1724814576394_3",
+              "type": "container",
+              "component": "col",
+              "data": {
+                "label": "列",
+                "width": "50%",
+                "align": "left",
+                "custom": ""
+              },
+              "rules": {},
+              "children": [
+                {
+                  "id": "1724814576394_4",
+                  "type": "widget",
+                  "component": "input",
+                  "data": {
+                    "label": "输入框",
+                    "modelData": "",
+                    "inputLimit": "",
+                    "showLabel": true,
+                    "labelAlign": "right",
+                    "row": 1,
+                    "placeholder": "",
+                    "min": 0,
+                    "max": 0,
+                    "contentType": "text",
+                    "accompany": "",
+                    "custom": "",
+                    "padding": 0,
+                    "margin": 0,
+                    "width": "100%",
+                    "appendButton": true,
+                    "appendButtonLabel": "查询",
+                    "appendSelect": false,
+                    "appendSelectOptions": []
+                  },
+                  "rules": {}
+                }
+              ]
+            },
+            {
+              "id": "1724814576394_5",
+              "type": "container",
+              "component": "col",
+              "data": {
+                "label": "列",
+                "width": "50%",
+                "align": "left",
+                "custom": ""
+              },
+              "rules": {},
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "1724814576394_6",
+          "type": "container",
+          "component": "table",
+          "data": {
+            "label": "表格",
+            "row": 3,
+            "accompany": "",
+            "custom": "",
+            "padding": 0,
+            "margin": 0,
+            "width": "100%",
+            "pagination": false
+          },
+          "rules": {},
+          "children": [
+            {
+              "id": "1724814576394_7",
+              "type": "widget",
+              "component": "table-column",
+              "data": {
+                "label": "表格列",
+                "titleAlign": "left",
+                "contentAlign": "left",
+                "modelData": "",
+                "inputLimit": "",
+                "childComponents": [],
+                "options": [],
+                "accompany": "",
+                "custom": ""
+              },
+              "rules": {}
+            },
+            {
+              "id": "1724814576394_8",
+              "type": "widget",
+              "component": "table-column",
+              "data": {
+                "label": "表格列",
+                "titleAlign": "left",
+                "contentAlign": "left",
+                "modelData": "",
+                "inputLimit": "",
+                "childComponents": [],
+                "options": [],
+                "accompany": "",
+                "custom": ""
+              },
+              "rules": {}
+            },
+            {
+              "id": "1724814576394_9",
+              "type": "widget",
+              "component": "table-column",
+              "data": {
+                "label": "表格列",
+                "titleAlign": "left",
+                "contentAlign": "left",
+                "modelData": "",
+                "inputLimit": "",
+                "childComponents": [],
+                "options": [],
+                "accompany": "",
+                "custom": ""
+              },
+              "rules": {}
+            }
+          ]
+        },
+        {
+          "id": "1724814576394_10",
+          "type": "container",
+          "component": "row",
+          "data": {
+            "label": "行",
+            "width": "100%",
+            "custom": ""
+          },
+          "rules": {},
+          "children": [
+            {
+              "id": "1724814576394_11",
+              "type": "container",
+              "component": "col",
+              "data": {
+                "label": "列",
+                "width": "25%",
+                "align": "left",
+                "custom": ""
+              },
+              "rules": {},
+              "children": [
+                {
+                  "id": "1724814576394_12",
+                  "type": "widget",
+                  "component": "select",
+                  "data": {
+                    "label": "下拉框",
+                    "modelData": "",
+                    "inputLimit": "",
+                    "selectMode": "single",
+                    "showLabel": true,
+                    "labelAlign": "right",
+                    "placeholder": "",
+                    "options": [],
+                    "accompany": "",
+                    "custom": "",
+                    "padding": 0,
+                    "margin": 0,
+                    "width": "100%"
+                  },
+                  "rules": {}
+                }
+              ]
+            },
+            {
+              "id": "1724814576394_13",
+              "type": "container",
+              "component": "col",
+              "data": {
+                "label": "列",
+                "width": "50%",
+                "align": "left",
+                "custom": ""
+              },
+              "rules": {},
+              "children": [
+                {
+                  "id": "1724814576394_14",
+                  "type": "widget",
+                  "component": "pagination",
+                  "data": {
+                    "label": "分页",
+                    "page-size": "10",
+                    "accompany": "",
+                    "custom": "",
+                    "padding": 0,
+                    "margin": 0,
+                    "width": "100%"
+                  },
+                  "rules": {}
+                }
+              ]
+            },
+            {
+              "id": "1724814576394_15",
+              "type": "container",
+              "component": "col",
+              "data": {
+                "label": "列",
+                "width": "25%",
+                "align": "left",
+                "custom": ""
+              },
+              "rules": {},
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1724814577302_1",
+      "type": "container",
+      "component": "data-table",
+      "data": {
+        "label": "数据表格",
+        "row": 4,
+        "col": 4,
+        "width": "100%",
+        "column-width": [
+          {
+            "type": "fr",
+            "data": "1"
+          },
+          {
+            "type": "fr",
+            "data": "1"
+          },
+          {
+            "type": "fr",
+            "data": "1"
+          },
+          {
+            "type": "fr",
+            "data": "1"
+          }
+        ],
+        "pagination": true,
+        "custom": ""
+      },
+      "rules": {},
+      "children": [
+        {
+          "id": "1724814577302_2",
+          "type": "container",
+          "component": "table-cell",
+          "data": {
+            "label": "123",
+            "bold": false,
+            "align": "left",
+            "rowIndex": 1,
+            "colIndex": 1,
+            "custom": ""
+          },
+          "rules": {},
+          "children": []
+        },
+        {
+          "id": "1724814577302_3",
+          "type": "container",
+          "component": "table-cell",
+          "data": {
+            "label": "",
+            "bold": false,
+            "align": "left",
+            "rowIndex": 1,
+            "colIndex": 2,
+            "custom": ""
+          },
+          "rules": {},
+          "children": []
+        },
+        {
+          "id": "1724814577302_4",
+          "type": "container",
+          "component": "table-cell",
+          "data": {
+            "label": "",
+            "bold": false,
+            "align": "left",
+            "rowIndex": 1,
+            "colIndex": 3,
+            "custom": ""
+          },
+          "rules": {},
+          "children": []
+        },
+        {
+          "id": "1724814577302_5",
+          "type": "container",
+          "component": "table-cell",
+          "data": {
+            "label": "",
+            "bold": false,
+            "align": "left",
+            "rowIndex": 1,
+            "colIndex": 4,
+            "custom": ""
+          },
+          "rules": {},
+          "children": []
+        },
+        {
+          "id": "1724814577302_6",
+          "type": "container",
+          "component": "table-cell",
+          "data": {
+            "label": "",
+            "bold": false,
+            "align": "left",
+            "rowIndex": 2,
+            "colIndex": 1,
+            "custom": ""
+          },
+          "rules": {},
+          "children": []
+        },
+        {
+          "id": "1724814577302_7",
+          "type": "container",
+          "component": "table-cell",
+          "data": {
+            "label": "",
+            "bold": false,
+            "align": "left",
+            "rowIndex": 2,
+            "colIndex": 2,
+            "custom": ""
+          },
+          "rules": {},
+          "children": []
+        },
+        {
+          "id": "1724814577302_8",
+          "type": "container",
+          "component": "table-cell",
+          "data": {
+            "label": "",
+            "bold": false,
+            "align": "left",
+            "rowIndex": 2,
+            "colIndex": 3,
+            "custom": ""
+          },
+          "rules": {},
+          "children": []
+        },
+        {
+          "id": "1724814577302_9",
+          "type": "container",
+          "component": "table-cell",
+          "data": {
+            "label": "",
+            "bold": false,
+            "align": "left",
+            "rowIndex": 2,
+            "colIndex": 4,
+            "custom": ""
+          },
+          "rules": {},
+          "children": []
+        },
+        {
+          "id": "1724814577302_10",
+          "type": "container",
+          "component": "table-cell",
+          "data": {
+            "label": "",
+            "bold": false,
+            "align": "left",
+            "rowIndex": 3,
+            "colIndex": 1,
+            "custom": ""
+          },
+          "rules": {},
+          "children": []
+        },
+        {
+          "id": "1724814577302_11",
+          "type": "container",
+          "component": "table-cell",
+          "data": {
+            "label": "",
+            "bold": false,
+            "align": "left",
+            "rowIndex": 3,
+            "colIndex": 2,
+            "custom": ""
+          },
+          "rules": {},
+          "children": []
+        },
+        {
+          "id": "1724814577302_12",
+          "type": "container",
+          "component": "table-cell",
+          "data": {
+            "label": "",
+            "bold": false,
+            "align": "left",
+            "rowIndex": 3,
+            "colIndex": 3,
+            "custom": ""
+          },
+          "rules": {},
+          "children": []
+        },
+        {
+          "id": "1724814577302_13",
+          "type": "container",
+          "component": "table-cell",
+          "data": {
+            "label": "",
+            "bold": false,
+            "align": "left",
+            "rowIndex": 3,
+            "colIndex": 4,
+            "custom": ""
+          },
+          "rules": {},
+          "children": []
+        },
+        {
+          "id": "1724814577302_14",
+          "type": "container",
+          "component": "table-cell",
+          "data": {
+            "label": "",
+            "bold": false,
+            "align": "left",
+            "rowIndex": 4,
+            "colIndex": 1,
+            "custom": ""
+          },
+          "rules": {},
+          "children": []
+        },
+        {
+          "id": "1724814577302_15",
+          "type": "container",
+          "component": "table-cell",
+          "data": {
+            "label": "",
+            "bold": false,
+            "align": "left",
+            "rowIndex": 4,
+            "colIndex": 2,
+            "custom": ""
+          },
+          "rules": {},
+          "children": []
+        },
+        {
+          "id": "1724814577302_16",
+          "type": "container",
+          "component": "table-cell",
+          "data": {
+            "label": "",
+            "bold": false,
+            "align": "left",
+            "rowIndex": 4,
+            "colIndex": 3,
+            "custom": ""
+          },
+          "rules": {},
+          "children": []
+        },
+        {
+          "id": "1724814577302_17",
+          "type": "container",
+          "component": "table-cell",
+          "data": {
+            "label": "",
+            "bold": false,
+            "align": "left",
+            "rowIndex": 4,
+            "colIndex": 4,
+            "custom": ""
+          },
+          "rules": {},
+          "children": []
+        }
+      ]
+    }
+  ],
+  "rules": {},
+  "description": "",
+  "id": "1716888213496_1"
+}
